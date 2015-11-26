@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="65f59683-8d72-4ddc-b0b7-9f32a3df81d1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:6060/DDona.WCFTest.ServiceIndependent.Venda.Venda.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DDona.xsd" MetadataType="Schema" ID="c38e6c82-7fda-4609-9200-a323fa4fc8a7" SourceId="1" SourceUrl="http://pc-sala:6060/DDona.WCFTest.ServiceIndependent.Venda.Venda.svc?xsd=xsd0" />
+    <MetadataFile FileName="DDona1.xsd" MetadataType="Schema" ID="56faefcc-5834-49b2-b2a4-c114fb3b29a1" SourceId="1" SourceUrl="http://pc-sala:6060/DDona.WCFTest.ServiceIndependent.Venda.Venda.svc?xsd=xsd1" />
+    <MetadataFile FileName="Venda.wsdl" MetadataType="Wsdl" ID="815df4d8-ca19-4939-adb2-8dd3457b5f66" SourceId="1" SourceUrl="http://pc-sala:6060/DDona.WCFTest.ServiceIndependent.Venda.Venda.svc?wsdl" />
+    <MetadataFile FileName="DDona11.xsd" MetadataType="Schema" ID="4c7d2794-a6bc-49ba-ad64-8b99b6755e07" SourceId="1" SourceUrl="http://pc-sala:6060/DDona.WCFTest.ServiceIndependent.Venda.Venda.svc?xsd=xsd2" />
+    <MetadataFile FileName="DDona.disco" MetadataType="Disco" ID="214778ff-f5f1-4913-b967-7140d44dd473" SourceId="1" SourceUrl="http://pc-sala:6060/DDona.WCFTest.ServiceIndependent.Venda.Venda.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
